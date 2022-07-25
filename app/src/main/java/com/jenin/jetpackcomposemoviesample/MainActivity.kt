@@ -40,6 +40,7 @@ class MainActivity : ComponentActivity() {
 @Composable
 fun DefaultPreview() {
     //Changes Done by Hari
+    //changes by jenin joseph R J
     MyApp {
     MovieNavigation()
 //        test
