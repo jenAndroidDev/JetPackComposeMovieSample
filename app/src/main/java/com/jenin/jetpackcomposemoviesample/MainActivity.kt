@@ -31,6 +31,8 @@ class MainActivity : ComponentActivity() {
         setContent {
           MyApp {
            MovieNavigation()
+              //New Function Created
+
           }
         }
     }
@@ -40,9 +42,10 @@ class MainActivity : ComponentActivity() {
 @Composable
 fun DefaultPreview() {
     //Changes Done by Hari
+    //Good Work
     MyApp {
     MovieNavigation()
-//        test
+//        test completed
     }
 }
 
@@ -51,6 +54,7 @@ fun MyApp(content: @Composable () ->Unit){
     //Changes Done by Hari
     JetPackComposeMovieSampleTheme {
      content()
+        //done
     }
 }
 
