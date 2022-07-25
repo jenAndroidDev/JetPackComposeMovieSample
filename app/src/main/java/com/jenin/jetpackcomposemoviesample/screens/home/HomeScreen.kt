@@ -38,8 +38,6 @@ fun MainContent(movieList:List<MovieDataClass>,navController: NavController){
             LazyColumn{
                 items(items = movieList){movieName->
                     MovieRow(movie = movieName){clickedMovie->
-
-
                         navController.navigate(route = MovieScreens.DetailsScreen.name+"/${clickedMovie}")
                     }
                 }
