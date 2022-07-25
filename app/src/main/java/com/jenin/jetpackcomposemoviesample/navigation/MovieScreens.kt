@@ -1,7 +1,7 @@
 package com.jenin.jetpackcomposemoviesample.navigation
 
 enum class MovieScreens {
-
+    //Changes Done by Hari
     HomeScreen,
     DetailsScreen;
     companion object{

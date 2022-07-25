@@ -18,7 +18,7 @@ import com.jenin.jetpackcomposemoviesample.widgets.MovieRow
 
 @Composable
 fun HomeScreen(navController: NavController){
-
+    //Changes Done by Hari
     Scaffold(topBar = {
         TopAppBar(
             backgroundColor = Color.Magenta,

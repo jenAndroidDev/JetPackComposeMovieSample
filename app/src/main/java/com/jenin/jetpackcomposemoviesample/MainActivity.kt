@@ -27,6 +27,7 @@ import com.jenin.jetpackcomposemoviesample.ui.theme.JetPackComposeMovieSampleThe
 class MainActivity : ComponentActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
+        //Changes Done by Hari
         setContent {
           MyApp {
            MovieNavigation()
@@ -38,6 +39,7 @@ class MainActivity : ComponentActivity() {
 @Preview(showBackground = true)
 @Composable
 fun DefaultPreview() {
+    //Changes Done by Hari
     MyApp {
     MovieNavigation()
 //        test
@@ -46,6 +48,7 @@ fun DefaultPreview() {
 
 @Composable
 fun MyApp(content: @Composable () ->Unit){
+    //Changes Done by Hari
     JetPackComposeMovieSampleTheme {
      content()
     }
